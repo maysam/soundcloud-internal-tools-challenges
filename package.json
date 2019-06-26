@@ -1,0 +1,16 @@
+{
+  "name": "soundcloud-internal-tools-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "aggregate": "node aggregate/aggregate.js",
+    "report": "node reporting/report.js"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "csv-parser": "^2.3.0",
+    "csv-writer": "^1.4.0",
+    "request": "^2.88.0"
+  }
+}
